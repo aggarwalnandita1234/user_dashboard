@@ -8,9 +8,9 @@
 """
 from system.core.controller import *
 
-class Welcome(Controller):
+class Messages(Controller):
     def __init__(self, action):
-        super(Welcome, self).__init__(action)
+        super(Messages, self).__init__(action)
         """
             This is an example of loading a model.
             Every controller has access to the load_model method.
